@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Traductor</h1>
+    <div class="languages-container">
+        <label for="form">Traducir del:</label>
+        <select name="" id="form">
+            <option value="es">Español</option>
+        </select>
+
+        <label for="to">Traducir del:</label>
+        <select name="" id="to">
+            
+        </select>
+    </div>
+
+    <div class="result-container">
+        <div>
+            <label class="label" for="inputTranslate">Ingresa el texto a traducir</label><br>
+            <textarea name="" id="inputTranslate" cols="10" rows="10"></textarea>
+        </div>
+
+        <button id="translate">Traducir</button>
+
+        <div>
+            <label  class="label" for="outputTranslate">Resultado:</label><br>
+            <textarea name="" id="outputTranslate" cols="10" rows="10"></textarea>  
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
